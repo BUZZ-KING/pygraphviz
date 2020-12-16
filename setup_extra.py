@@ -121,7 +121,9 @@ def get_graphviz_dirs():
     First try to read include_dirs from
     :return: tuple of lists ([include_dirs], [library_dirs])
     """
-
+    # OSX Homebrew location
+    include_dirs='/usr/local/Cellar/graphviz/2.38.0/include'
+    library_dirs='/usr/local/Cellar/graphviz/2.38.0/lib'
     # If the setup script couldn't find your graphviz installation you can
     # specify it here by uncommenting these lines or providing your own:
     # You must set both 'library_dirs' and 'include_dirs'
