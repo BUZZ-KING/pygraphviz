@@ -1,3 +1,6 @@
+# OSX Homebrew location
+include_dirs='/usr/local/Cellar/graphviz/2.38.0/include'
+library_dirs='/usr/local/Cellar/graphviz/2.38.0/lib'
 #!/usr/bin/env python
 """
 Setup helpers for PyGraphviz.
